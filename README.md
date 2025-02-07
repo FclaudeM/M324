@@ -1,2 +1,2 @@
 # M324
-Lernportfolio und Projekt von Claude, Nikita, Carina
+Lernportfolio und Projekt von Claude, Nikita
