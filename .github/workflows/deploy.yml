@@ -1,31 +1,31 @@
-name: Deploy to GitHub Pages
+name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Change to 'master' if your default branch is 'master'
+      - main  # Workflow wird bei jedem Push auf den main-Branch ausgelöst
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Node.js (optional, if you need Node.js)
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: 18
+          python-version: "3.x"
 
-      - name: Install dependencies (optional, if you have dependencies)
-        run: npm install  # Replace with your package manager if needed
+      - name: Install MkDocs
+        run: pip install mkdocs
 
-      - name: Build project (optional, if you need to build your site)
-        run: npm run build  # Replace with your build command if needed
+      - name: Build MkDocs site
+        run: mkdocs build --site-dir ./site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./root  # Replace with the directory containing your site files (e.g., 'dist' or 'public')
+          publish_dir: ./site
