@@ -1,4 +1,4 @@
-name: Build and Test
+name: Build and Package
 
 on:
   push:
@@ -11,7 +11,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     steps:
     - uses: actions/checkout@v3
@@ -31,10 +31,10 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
     
     - name: Publish
-      run: dotnet publish -c Release -o out
+      run: dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true --self-contained true -o ./publish
     
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: TodoApp
-        path: out
+        path: ./publish/TodoApp.exe
