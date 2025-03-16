@@ -1,0 +1,5 @@
+C:\M324\ToDo-App M324\publish\ToDo-App M324.exe
+C:\M324\ToDo-App M324\publish\ToDo-App M324.dll
+C:\M324\ToDo-App M324\publish\ToDo-App M324.deps.json
+C:\M324\ToDo-App M324\publish\ToDo-App M324.runtimeconfig.json
+C:\M324\ToDo-App M324\publish\ToDo-App M324.pdb

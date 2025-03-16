@@ -1,0 +1,15 @@
+C:\M324\ToDo-App M324\bin\Release\net8.0\ToDo-App M324.exe
+C:\M324\ToDo-App M324\bin\Release\net8.0\ToDo-App M324.deps.json
+C:\M324\ToDo-App M324\bin\Release\net8.0\ToDo-App M324.runtimeconfig.json
+C:\M324\ToDo-App M324\bin\Release\net8.0\ToDo-App M324.dll
+C:\M324\ToDo-App M324\bin\Release\net8.0\ToDo-App M324.pdb
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.GeneratedMSBuildEditorConfig.editorconfig
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.AssemblyInfoInputs.cache
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.AssemblyInfo.cs
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.csproj.CoreCompileInputs.cache
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.sourcelink.json
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.dll
+C:\M324\ToDo-App M324\obj\Release\net8.0\refint\ToDo-App M324.dll
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.pdb
+C:\M324\ToDo-App M324\obj\Release\net8.0\ToDo-App M324.genruntimeconfig.cache
+C:\M324\ToDo-App M324\obj\Release\net8.0\ref\ToDo-App M324.dll
